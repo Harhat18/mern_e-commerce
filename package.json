@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@babel/core": "^7.21.0",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
     "cloudinary": "^1.26.3",
@@ -20,12 +21,15 @@
     "express": "^4.17.1",
     "express-fileupload": "^1.2.1",
     "history": "^5.3.0",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "mongoose": "^5.13.5",
     "nodemailer": "^6.6.3",
     "npm": "^9.6.0",
     "overlay-navbar": "^1.2.3",
     "stripe": "^8.174.0",
     "validator": "^13.6.0"
+  },
+  "devDependencies": {
+    "cypress": "^12.7.0"
   }
 }
